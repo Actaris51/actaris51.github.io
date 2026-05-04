@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lyora — Mieux dormir, sans tracker</title>
+<meta name="description" content="Lyora : conseils sourcés sur le sommeil adulte. Chronotype, rituel du soir, sons nocturnes, respiration 4-7-8. Bilingue FR + EN. Aucun compte. Aucun tracker.">
+<meta property="og:title" content="Lyora — Mieux dormir, sans tracker">
+<meta property="og:description" content="Conseils sourcés sur le sommeil adulte. Chronotype, rituel du soir, sons nocturnes, respiration 4-7-8.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://actaris51.github.io/lyora/">
+<meta property="og:image" content="https://actaris51.github.io/lyora/feature_graphic.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root {
+    --navy: #1a1f3a;
+    --navy-deep: #0f1226;
+    --lavender: #9b8ec4;
+    --lavender-light: #c5bde0;
+    --cream: #faf3ec;
+    --cream-warm: #fff3e9;
+    --text: #1a1f3a;
+    --text-secondary: #5a6070;
+    --text-muted: #9aa0b0;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    color: var(--text);
+    line-height: 1.6;
+    background: var(--cream);
+  }
+  .hero {
+    background: linear-gradient(135deg, var(--navy) 0%, #2d3561 100%);
+    color: var(--cream);
+    padding: 80px 24px 100px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(155, 142, 196, 0.18) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .wordmark {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 88px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin: 0 0 12px;
+    color: #fff;
+  }
+  .tagline {
+    font-size: 22px;
+    color: var(--lavender-light);
+    margin: 0 0 48px;
+    font-weight: 400;
+  }
+  .stores {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 24px;
+  }
+  .store-link {
+    display: inline-block;
+    padding: 14px 24px;
+    background: rgba(255,255,255,0.10);
+    border: 1px solid rgba(255,255,255,0.20);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 15px;
+    transition: background 0.2s;
+  }
+  .store-link:hover { background: rgba(255,255,255,0.18); }
+  .store-link.disabled { opacity: 0.5; cursor: default; }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 60px 24px;
+  }
+  h2 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    color: var(--navy);
+    margin: 48px 0 12px;
+    letter-spacing: -0.3px;
+  }
+  h2:first-child { margin-top: 0; }
+  p, li { color: var(--text-secondary); font-size: 16px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  a { color: var(--lavender); }
+  a:hover { color: var(--navy); }
+
+  .features {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 32px;
+  }
+  @media (min-width: 640px) {
+    .features { grid-template-columns: 1fr 1fr; }
+  }
+  .feature {
+    background: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid var(--lavender-light);
+  }
+  .feature h3 {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    color: var(--navy);
+    margin: 0 0 8px;
+  }
+  .feature p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  footer {
+    background: var(--navy-deep);
+    color: var(--lavender-light);
+    padding: 40px 24px;
+    text-align: center;
+    font-size: 14px;
+  }
+  footer a { color: var(--lavender-light); }
+  footer .links { margin-bottom: 16px; }
+  footer .links a { margin: 0 12px; }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <h1 class="wordmark">Lyora</h1>
+  <p class="tagline">Mieux dormir, sans tracker.</p>
+  <div class="stores">
+    <a class="store-link disabled" aria-disabled="true">Bientôt sur l'App Store</a>
+    <a class="store-link disabled" aria-disabled="true">Bientôt sur Google Play</a>
+  </div>
+</section>
+
+<div class="container">
+
+<h2>Pourquoi Lyora</h2>
+<p>Vous vous endormez tard, vous vous réveillez fatigué·e, et la moitié des conseils que vous lisez sur le sommeil sont des recommandations marketing déguisées. Lyora prend l'autre direction : six articles courts sourcés via PubMed, un quiz chronotype validé en 14 langues, un rituel du soir qui tient en 30 minutes, huit sons en boucle pour les nuits difficiles. Aucun compte, aucun serveur, aucun tracker.</p>
+
+<h2>Ce qu'il y a dedans</h2>
+<div class="features">
+  <div class="feature">
+    <h3>Votre chronotype en 5 questions</h3>
+    <p>Quiz MEQ-light validé scientifiquement. Votre fenêtre de sommeil idéale est calculée d'après votre heure de réveil.</p>
+  </div>
+  <div class="feature">
+    <h3>Rituel du soir en 30 min</h3>
+    <p>Quatre étapes simples, une série quotidienne qui se construit. Sans gamification agressive.</p>
+  </div>
+  <div class="feature">
+    <h3>Bibliothèque sourcée</h3>
+    <p>Six articles, huit études citées avec liens PubMed. Roenneberg, Drake, Borbély, Trauer, Stutz, Watson.</p>
+  </div>
+  <div class="feature">
+    <h3>Pour les nuits difficiles</h3>
+    <p>Huit sons en boucle, respiration 4-7-8 guidée par animation, timer 20 min pour le réveil à 3 h.</p>
+  </div>
+  <div class="feature">
+    <h3>Bilingue FR + EN</h3>
+    <p>Chaque interface, chaque article — écrits à la main dans les deux langues. Pas de traduction automatique.</p>
+  </div>
+  <div class="feature">
+    <h3>Pas de pubs pendant le sommeil</h3>
+    <p>Aucune publicité entre 22 h et 6 h. Aucune pendant la respiration ou la lecture d'un article.</p>
+  </div>
+</div>
+
+<h2>Vos données restent les vôtres</h2>
+<p>Aucun compte requis. Aucun serveur. Toutes vos données vivent sur votre téléphone. Lyora fonctionne hors-ligne. Les publicités sont gérées via Google AdMob ; vous pouvez les refuser personnalisées si vous le souhaitez. Détails complets dans la <a href="privacy-policy.html">politique de confidentialité</a>.</p>
+
+<h2>Sources</h2>
+<p>Lyora s'appuie sur des publications relues par les pairs et accessibles publiquement via <a href="https://pubmed.ncbi.nlm.nih.gov/" rel="noopener">PubMed</a>. Auteurs cités : Roenneberg (chronotype), Adan & Almirall (MEQ), Drake (caféine), Chang (lumière bleue), Borbély (modèle à deux processus), Trauer (TCC-I), Stutz (exercice), Watson (consensus AASM 7 h). Les sons proviennent de l'app sœur Bercea et de freesound.org sous licence Creative Commons Attribution.</p>
+
+<h2>Contact</h2>
+<p>Question, retour, presse : <a href="mailto:julien.duval.patrimoine@gmail.com">julien.duval.patrimoine@gmail.com</a></p>
+
+</div>
+
+<footer>
+  <div class="links">
+    <a href="privacy-policy.html">Politique de confidentialité</a> ·
+    <a href="https://pubmed.ncbi.nlm.nih.gov/" rel="noopener">PubMed</a>
+  </div>
+  <p>© 2026 Julien Duval · Conçu en France</p>
+</footer>
+
+</body>
+</html>
